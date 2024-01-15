@@ -10,6 +10,22 @@
   .hamburger-menu {
     display: block;
   }
+  .banner-content {
+    padding-top: 20px;
+  }
+  .banner-description {
+    margin: 5px 0 5px 0;
+    padding: 0 20px;
+  }
+  .find-option {
+    flex-direction: column;
+  }
+  .find-option input,
+  .find-option select,
+  .find-option button {
+    width: 300px;
+    margin: 5px 0;
+  }
 }
 
 @media screen and (min-width: 600px) and (max-width: 992px) {
@@ -19,5 +35,21 @@
   }
   .nav-menu {
     width: 80%;
+  }
+  .banner-content {
+    padding-top: 40px;
+  }
+  .banner-description {
+    margin: 5px 0 10px 0;
+    padding: 0 20px;
+  }
+  .find-option {
+    flex-direction: column;
+  }
+  .find-option input,
+  .find-option select,
+  .find-option button {
+    width: 300px;
+    margin: 5px 0;
   }
 }

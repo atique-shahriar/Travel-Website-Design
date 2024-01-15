@@ -20,6 +20,13 @@ h3 {
   font-size: 2.5rem;
   font-weight: 800;
 }
+button {
+  border: none;
+  border-radius: 8px;
+  color: white;
+  background-color: #ff5400;
+  font-weight: 700;
+}
 
 /* Nav Section */
 .nav-bar {
@@ -58,4 +65,64 @@ h3 {
 
 .hamburger-menu {
   display: none;
+}
+
+/* Banner Section */
+.banner-section {
+  background-image: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("Images/Group13.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  width: 100%;
+  height: 550px;
+  background-position: center;
+}
+
+.banner-content {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.banner-title {
+  color: white;
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.banner-description {
+  color: white;
+  margin: 24px 0 30px 0;
+  padding: 0 240px;
+}
+
+.find-option {
+  display: flex;
+  padding: 10px;
+  width: fit-content;
+  margin: 0 auto;
+  background-color: rgba(19, 19, 24, 0.5);
+  border-radius: 8px;
+}
+
+.find-option input,
+.find-option select,
+.find-option button {
+  height: 40px;
+  width: 144px;
+  padding-left: 10px;
+  margin: 0 5px;
+  border-radius: 8px;
+  border: none;
+  color: #424247;
+}
+.find-option button i {
+  margin-right: 10px;
+}
+.find-option button {
+  color: white;
 }
