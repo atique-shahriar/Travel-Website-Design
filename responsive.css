@@ -19,7 +19,8 @@
   }
   .find-option,
   .popular-container,
-  .choose-cart-top {
+  .choose-cart-top,
+  .news-container {
     flex-direction: column;
   }
   .find-option input,
@@ -30,11 +31,14 @@
   }
   .popular-image,
   .popular-content,
-  .choose-cart {
+  .choose-cart,
+  .news-content,
+  .news-image {
     width: 100%;
   }
   .popular-container,
-  .choose-cart-top {
+  .choose-cart-top,
+  .news-container {
     gap: 30px;
   }
   .destination-images .a,
@@ -82,7 +86,8 @@
   }
   .find-option,
   .popular-container,
-  .choose-cart-top {
+  .choose-cart-top,
+  .news-container {
     flex-direction: column;
   }
   .find-option input,
@@ -93,11 +98,14 @@
   }
   .popular-image,
   .popular-content,
-  .choose-cart {
+  .choose-cart,
+  .news-content,
+  .news-image {
     width: 100%;
   }
   .popular-container,
-  .choose-cart-top {
+  .choose-cart-top,
+  .news-container {
     gap: 30px;
   }
   .destination-content p,
