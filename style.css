@@ -254,7 +254,41 @@ button {
   margin-top: 30px;
 }
 
-/* New Section */
+/* Facilities Section */
+.facilities-section {
+  margin: 80px 0;
+  text-align: center;
+}
+.facilities-section p {
+  margin: 16px 0;
+}
+.facilities-section button {
+  background: none;
+  color: #ff5400;
+  font-size: 1rem;
+}
+.facilities-container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 60px;
+}
+.facilities-container img {
+  margin-bottom: 16px;
+}
+.facilities-container div {
+  width: 25%;
+  padding: 10px;
+  border-radius: 16px;
+  transition: background-color 1s linear;
+}
+.facilities-container div:hover {
+  transform: scale(1.3);
+  background-color: #d3d3d3;
+}
+
+/* News Section */
 .news-section {
   margin: 80px 0;
 }

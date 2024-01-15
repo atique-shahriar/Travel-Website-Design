@@ -20,7 +20,8 @@
   .find-option,
   .popular-container,
   .choose-cart-top,
-  .news-container {
+  .news-container,
+  .facilities-container {
     flex-direction: column;
   }
   .find-option input,
@@ -33,14 +34,17 @@
   .popular-content,
   .choose-cart,
   .news-content,
-  .news-image {
+  .news-image,
+  .facilities-container div {
     width: 100%;
   }
   .popular-container,
   .choose-cart-top,
-  .news-container {
+  .news-container,
+  .facilities-container {
     gap: 30px;
   }
+
   .destination-images .a,
   .destination-images .b {
     grid-column: span 12;
@@ -100,12 +104,14 @@
   .popular-content,
   .choose-cart,
   .news-content,
-  .news-image {
+  .news-image,
+  .facilities-container div {
     width: 100%;
   }
   .popular-container,
   .choose-cart-top,
-  .news-container {
+  .news-container,
+  .facilities-container {
     gap: 30px;
   }
   .destination-content p,
