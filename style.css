@@ -11,7 +11,7 @@ main {
 }
 
 p {
-  color: #131318;
+  color: rgba(19, 19, 24, 0.7);
   font-size: 1rem;
   line-height: 1.625rem;
 }
@@ -26,6 +26,7 @@ button {
   color: white;
   background-color: #ff5400;
   font-weight: 700;
+  padding: 10px 30px;
 }
 
 /* Nav Section */
@@ -105,7 +106,7 @@ button {
   padding: 10px;
   width: fit-content;
   margin: 0 auto;
-  background-color: rgba(19, 19, 24, 0.5);
+  background-color: rgba(163, 163, 163, 0.5);
   border-radius: 8px;
 }
 
@@ -125,4 +126,34 @@ button {
 }
 .find-option button {
   color: white;
+}
+
+/* Popular Section */
+
+.popular-section {
+  margin: 80px 0;
+}
+.popular-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.popular-content {
+  width: 45%;
+  color: rgba(19, 19, 24, 0.7);
+}
+.popular-image {
+  width: 45%;
+}
+
+.popular-content p,
+.popular-content li {
+  margin: 24px 0;
+}
+.popular-content li {
+  margin-left: 16px;
+}
+
+.popular-container img {
+  width: 100%;
 }
