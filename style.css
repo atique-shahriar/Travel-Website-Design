@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+header,
+main {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+p {
+  color: #131318;
+  font-size: 1rem;
+  line-height: 1.625rem;
+}
+h3 {
+  color: #131318;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+/* Nav Section */
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+.nav-menu {
+  min-width: 45%;
+  display: flex;
+  justify-content: space-between;
+  color: #131318;
+}
+.nav-menu a {
+  text-decoration: none;
+  color: #424247;
+}
+.nav-menu li {
+  font-size: 1.1rem;
+  list-style: none;
+}
+
+.nav-logo h2 {
+  font-size: 2rem;
+  font-weight: 800;
+}
+.nav-logo img {
+  margin-right: 10px;
+}
+
+.hamburger-menu {
+  display: none;
+}
