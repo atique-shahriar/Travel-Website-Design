@@ -34,6 +34,28 @@
   .popular-container {
     gap: 30px;
   }
+  .destination-images .a,
+  .destination-images .b {
+    grid-column: span 12;
+  }
+  .destination-images .c {
+    grid-column: span 12;
+  }
+  .destination-images .d {
+    grid-column: span 12;
+  }
+  .destination-images .e {
+    grid-column: span 12;
+  }
+  .destination-images .f {
+    grid-column: span 12;
+  }
+  .destination-images .g {
+    grid-column: span 12;
+  }
+  .destination-images {
+    grid-template-rows: repeat(7, 200px);
+  }
 }
 
 @media screen and (min-width: 600px) and (max-width: 992px) {
