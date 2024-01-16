@@ -141,6 +141,6 @@
   .find-option input,
   .find-option select,
   .find-option button {
-    width: 100%;
+    width: 300px;
   }
 }
