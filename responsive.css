@@ -21,7 +21,8 @@
   .popular-container,
   .choose-cart-top,
   .news-container,
-  .facilities-container {
+  .facilities-container,
+  .video-container {
     flex-direction: column;
   }
   .find-option input,
@@ -91,7 +92,8 @@
   .find-option,
   .popular-container,
   .choose-cart-top,
-  .news-container {
+  .news-container,
+  .video-container {
     flex-direction: column;
   }
   .find-option input,
