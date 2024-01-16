@@ -313,10 +313,11 @@ button {
 .deal-contents {
   border: none;
   border-radius: 8px;
-  height: 80%;
+  min-height: 70%;
+  height: fit-content;
   width: 50%;
   background-color: rgba(211, 211, 211, 0.7);
-  padding: 0 40px;
+  padding: 40px 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;

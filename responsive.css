@@ -75,9 +75,9 @@
   }
   .deal-contents {
     width: 90%;
-    height: 60%;
+    /* height: 60%; */
     left: 50%;
-    top: 65%;
+    top: 58%;
   }
 }
 
@@ -131,8 +131,16 @@
 
   .deal-contents {
     width: 90%;
-    height: 60%;
+    /* height: 60%; */
     left: 50%;
-    top: 65%;
+    top: 58%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .find-option input,
+  .find-option select,
+  .find-option button {
+    width: 100%;
   }
 }
